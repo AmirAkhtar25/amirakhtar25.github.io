@@ -1,0 +1,180 @@
+body {
+
+    margin:0;
+    background-color: #fdf0d5;
+}
+
+nav {
+    background-color: #CAF0F8;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #00B4D8;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+}
+
+section.splash {
+    background-color: #ffafcc;
+}
+
+.splash h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #c1121f;
+}
+
+img.headshot {
+    border-radius: 10%;
+}
+
+.splash p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #03045E;
+}
+
+hr {
+    border-style: solid;
+    border-top: 10px solid #000;
+}
+
+h2 {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #780000;
+    font-size: 32px;
+}
+
+p.education {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+dl {
+   display: grid;
+   grid-template-columns: 1fr 5fr;
+   gap: 10px; 
+   padding: 0;
+   margin: 0;
+}
+
+a {
+    color: #fb8500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7209b7;
+    text-decoration: underline;
+}
+
+div.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+img.shanghai {
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+img.tree {
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+img.debt {
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+div.card1 {
+    background-color: #0077b6;
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 0 6px 8px rgba(0,0,0, 1);
+}
+
+div.card2 {
+    background-color: #00b4d8;
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 0 6px 8px rgba(0,0,0, 1);
+}
+
+div.card3 {
+    background-color: #90e0ef;
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 0 6px 8px rgba(0,0,0, 1);
+}
+
+div.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    min-height: 250px;
+    padding: 10px;
+    background-color: #48cae4;
+    border-radius: 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+input[type="submit"]  {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #00FF00;
+}
+
+input[type="submit"]:hover {
+    background-color: #006400;
+}
+
+
+
+
+
+
+

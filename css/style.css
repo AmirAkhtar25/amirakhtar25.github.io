@@ -27,17 +27,30 @@ section.splash {
     font-weight: 700;
     font-style: normal;
     color: #c1121f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img.headshot {
-    border-radius: 10%;
+    border-radius: 30%;
 }
+
+div.headshotCONT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .splash p {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: #03045E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 hr {
